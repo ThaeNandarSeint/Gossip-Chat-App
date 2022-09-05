@@ -1,0 +1,110 @@
+.auth-wrapper{
+    width: 540px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 8%;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid var(--green);
+}
+.auth-title{
+    background: var(--green);
+    line-height: 70px;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.auth-wrapper > form{
+    padding: 30px 25px 25px 25px;
+}
+.auth-input{
+    height: 55px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.auth-input > input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+.auth-input > input:focus{
+    border-color: var(--green);
+    box-shadow: inset 0px 0px 2px 2px rgba(26, 66, 188, 0.25);
+}
+.auth-input > i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    color: #fff;
+    background: var(--green);
+    border: 1px solid var(--green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 5px 0 0 5px;
+}
+.hide-password{
+    position: absolute;
+    top: 17px;
+    right: 10px
+}
+.hide-password >*{
+    transform: scale(1.5);
+    margin-right: 5px;
+}
+.change-page{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.change-page > a{
+    color: var(--green);
+    text-decoration: none;
+}
+.change-page > a:hover{
+    text-decoration: underline;
+}
+.auth-btn{
+    width: 100%;
+    height: 100%;
+    padding-left: 0px;
+    background: var(--green);
+    border: 1px solid var(--green);
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    font-size: 25px;
+    outline: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+/* login */
+.auth-wrapper-login{
+    height: 400px;
+}
+.forgot-password{
+    margin: -8px 0 20px 0;
+}
+.forgot-password > a{
+    color: var(--green);
+    text-decoration: none;
+    font-size: 17px;
+}
+.forgot-password > a:hover{
+    text-decoration: underline;
+}
+/* forgot password */
+.fg-wrapper{
+    height: 250px;
+}
+.reset-wrapper{
+    height: 320px;
+}

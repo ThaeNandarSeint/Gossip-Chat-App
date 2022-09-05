@@ -1,0 +1,16 @@
+:root{
+  --black: #252429;
+  --white: #ffffff;
+  --green: #009688;
+  --paleGray: #d9dbd5;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{        
+  overflow: hidden;
+  background-color: var(--white);
+}

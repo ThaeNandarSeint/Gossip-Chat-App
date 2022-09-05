@@ -1,0 +1,50 @@
+.avatar-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    background-color: var(--white);
+    height: 100vh;
+    width: 100vw;
+}
+.avatar-title > h1{
+    color: var(--black);
+    font-size: 40px;
+}
+.avatars{
+    display: flex;
+    gap: 2rem;
+}
+.avatar{
+    border: 0.4rem solid transparent;
+    padding: 0.4rem;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease-in-out;
+}
+.avatar > img{
+    height: 6rem;
+}
+.avatar-selected{
+    border: 0.4rem solid var(--green);
+}
+.avatar-btn{
+    background-color: var(--green);
+    color: var(--white);
+    padding: 1rem 2rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.avatar-btn:hover{
+    background-color: var(--green);
+}
+.loader{
+    max-inline-size: 100%;
+}

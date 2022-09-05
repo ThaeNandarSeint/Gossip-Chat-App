@@ -1,0 +1,37 @@
+.not-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e5ddd5;
+    min-height: 100vh;
+}
+.not-container > img{
+    border-radius: 20px;
+}
+.not-container h2
+{
+    font-size: 1.9em;
+    color: var(--white);
+    filter: drop-shadow(1px 1px 8px var(--white));
+}
+.not-container p
+{
+    color: var(--white);
+    font-size: 1.2em;
+}
+.not-container .not-btn
+{
+    width: 170px;
+    height: 50px;
+    appearance: none;
+    outline: none;
+    border: none;
+    background-color: #1cb5f0;
+    color: var(--white);
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 10px 0px;
+    text-decoration: none;
+}
